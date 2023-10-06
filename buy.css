@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    width: auto;
+    background-color: black;
+    box-shadow: 10px 5px 5px lightgrey;
+    margin-bottom: 30px;
+}
+
+
+.filters{
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.glavn{
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+
+.menuha{
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+    font-size: 23px;
+}
+
+.menuha:hover{
+    text-decoration: underline;
+    color:red;
+}
+
+.filters p{
+    font-family: cursive;
+}
