@@ -1,7 +1,8 @@
-*{
+body{
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 0px;
+    margin-bottom: 0;
 }
 
 a{
@@ -28,10 +29,15 @@ a{
     border-bottom:  1px solid white;
     color: white;
     font-family: cursive;
+    font-size: 1em;
 }
 
 .stroka::before{
     border: 1px solid black;
+}
+
+.poisk{
+    margin-left:2em;
 }
 
 .poisk1{
@@ -40,7 +46,7 @@ a{
    
     color: pink;
     background-color: black;
-    font-size: 15px;
+    font-size: 1.3em;
 
 }
 .poisk1:active{
@@ -75,14 +81,16 @@ margin-bottom: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     box-shadow: 10px 5px 5px lightgrey;
+    padding: 15px;
 
 }
 
 .cnopka{
     text-decoration: none;
     color: pink;
-    font-size: 15px;
+    font-size: 0.9em;
     margin-top: 20px;
+
 }
 
 .cnopka:hover{
@@ -97,18 +105,21 @@ margin-bottom: 25px;
 
 .two{
     text-align: center;
-    justify-content: flex-end;
+    justify-content: space-around;
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    align-items: center;
-    display: flex;
     align-items: flex-start;
+    display: flex;
+   
+    width: 100%;
 }
 
 .blyat{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    width: 50%;
 }
 
 .content{
@@ -137,11 +148,11 @@ margin-bottom: 25px;
     height: auto;
     color: rgb(228, 34, 12);
     border: 1px solid black;
-    
+    margin-left: 5em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
     padding: 3px;
-    margin-left: 130px;
+    
 }
 
 .buy:hover{
@@ -198,4 +209,26 @@ margin-bottom: 25px;
     justify-content: center;
     flex-direction: column;
     margin-top: 25px;
+}
+
+@media (min-width: 200px) and (max-width: 760px){
+
+body{
+    margin: 0;
+}
+
+.dva{
+    display: flex;
+    margin-bottom: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first{
+    width: 90%;
+    margin-bottom: 2rem;
+    margin-left: 0;
+}
+
+
 }
